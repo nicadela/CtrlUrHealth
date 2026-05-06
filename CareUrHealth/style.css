@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 100vh; /* full screen */
+    background-image: url("images/ctrl.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* keeps nav on top */
+}
+
+nav {
+    margin-top: 20px;
+    position: fixed;
+}
+
+
+nav a {
+    color: #242424;
+    background-color: #eeeeee;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #242424;
+    padding: 8px 18px;
+    display: inline-block;
+}   
+
+#ABOUT {
+    height: 100vh;
+    background-image: url("images/about-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* push content to right */
+    padding: 60px;
+}
+
+.about-text {
+    max-width: 700px; /* prevents stretching */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.about-text p {
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 32px;
+}
+
+#CONTACT {
+    height: 100vh; /* full screen */
+    background-image: url("images/suggestion-box.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Wrapper */
+.contact-wrapper {
+    margin-top: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+/* Left side (socials) */
+.socials {
+    flex: 1;
+    margin-top: -20%;
+    font-size: 50px;
+    font-style: Bolder;
+    padding: 15px;
+    
+}
+
+/* Right side (form) */
+#suggestionForm {
+    flex: 1;
+}
+
+/* Optional styling */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+input, textarea {
+    margin-left: -5%;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 5px solid #000000;
+    border-radius: 20px;
+}
+
+button {
+    margin-left: -5%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    font-style: bolder;
+    font-size: 25px;
+}
+
+section {
+    padding: 30px;
+}
+
+.subnav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+/*INFORMATION SECTION */
+
+
+#HOME-INFO {
+    height: 100vh; /* full screen */
+    background-image: url("images/firstaid.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* keeps nav on top */
+}
+
+#navINFO {
+    color: #242424;
+    background-color: #bbdcf7;
+    margin: 0px;
+    padding: 4px 460px;
+}
+
+.firstaid-text {
+    max-width: 1500px; /* prevents stretching */
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top: 30%;
+    margin-right: -50%;
+
+}
+
+.firstaid-text h1 {
+    background: linear-gradient(90deg, #fff5ca, #F1F1F1);
+}
+
+.firstaid-text p {
+    margin-top: 5px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+#medicineone {
+    height: 100vh; /* full screen */
+    background-image: url("images/medsone.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#medicineone p {
+    margin-top: 35%;
+    line-height: 1.6;
+    font-size: 43px;
+    margin-left: 59%;
+    margin-right: 6%;
+}
+
+#medicinetwo {
+    height: 100vh; /* full screen */
+    background-image: url("images/medstwo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#woundcare {
+    height: 100vh; /* full screen */
+    background-image: url("images/wound.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hotlines {
+    height: 100vh; /* full screen */
+    background-image: url("images/hotlines.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#noparent {
+    height: 100vh; /* full screen */
+    background-image: url("images/noparent.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cpr {
+    height: 100vh; /* full screen */
+    background-image: url("images/cpr.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
