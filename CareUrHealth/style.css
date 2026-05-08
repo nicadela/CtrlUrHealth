@@ -200,6 +200,32 @@ section {
     background-repeat: no-repeat;
 }
 
+.medicinetwo-container {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.medicinetwofirst-text{
+    flex: 1;
+    margin-right: 10%;
+}
+
+.medicinetwosecond-text{
+    flex: 1;
+    margin-right: 25%
+}
+
+.medicinetwofirst-text h1 {
+    background: linear-gradient(90deg, #fff5ca, #F1F1F1);
+}
+
+.medicinetwosecond-text h1 {
+    background: linear-gradient(90deg, #fff5ca, #F1F1F1);
+}
+
 #woundcare {
     height: 100vh; /* full screen */
     background-image: url("images/wound.png");
@@ -207,6 +233,24 @@ section {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.woundcare-text {
+    max-width: 1500px; /* prevents stretching */
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 38%;
+    margin-top: 12%;
+    color: #ffffff;
+}
+
+.woundcare-text p {
+    margin-top: 9px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+
+
 
 #hotlines {
     height: 100vh; /* full screen */
@@ -216,12 +260,49 @@ section {
     background-repeat: no-repeat;
 }
 
+.hotlines-text {
+    max-width: 1500px; /* prevents stretching */
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 12.5%;
+    margin-top: 13.5%;
+    color: #000;
+    font-size: 28px;
+}
+
+
 #noparent {
     height: 100vh; /* full screen */
     background-image: url("images/noparent.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.noparent-text {
+    max-width: 1500px; /* prevents stretching */
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-top: 11%;
+    color: #000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+.noparent-inside {
+    flex: 1 ;
+    margin-left: 2%;
+    font-size: 14.5px;
+
+}
+.noparent-outside {
+    flex: 1;
+    margin-right: 15%;
+    font-size: 19px;
 }
 
 #cpr {
