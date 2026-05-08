@@ -38,6 +38,8 @@ nav a {
     display: inline-block;
 }   
 
+/* HOME - ABOUT  */
+
 #ABOUT {
     height: 100vh;
     background-image: url("images/about-bg.png");
@@ -62,6 +64,9 @@ nav a {
     line-height: 1.6;
     font-size: 32px;
 }
+
+
+/* HOME - CONTACT  */
 
 #CONTACT {
     height: 100vh; /* full screen */
@@ -136,6 +141,8 @@ section {
 
 /*INFORMATION SECTION */
 
+/* INFORMATION - FIRSTAID  */
+
 
 #HOME-INFO {
     height: 100vh; /* full screen */
@@ -175,6 +182,9 @@ section {
     line-height: 1.6;
     font-size: 20px;
 }
+
+
+/* INFORMATION - MEDICINE  */
 
 #medicineone {
     height: 100vh; /* full screen */
@@ -226,6 +236,9 @@ section {
     background: linear-gradient(90deg, #fff5ca, #F1F1F1);
 }
 
+
+/* INFORMATION - WOUND CARE  */
+
 #woundcare {
     height: 100vh; /* full screen */
     background-image: url("images/wound.png");
@@ -250,7 +263,7 @@ section {
 }
 
 
-
+/* INFORMATION - HOTLINES  */
 
 #hotlines {
     height: 100vh; /* full screen */
@@ -271,6 +284,9 @@ section {
 }
 
 
+
+/* INFORMATION - NO PARENT  */
+
 #noparent {
     height: 100vh; /* full screen */
     background-image: url("images/noparent.png");
@@ -278,6 +294,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .noparent-text {
     max-width: 1500px; /* prevents stretching */
     padding: 10px;
@@ -292,7 +309,6 @@ section {
     gap: 50px;
 }
 
-
 .noparent-inside {
     flex: 1 ;
     margin-left: 2%;
@@ -304,6 +320,9 @@ section {
     margin-right: 15%;
     font-size: 19px;
 }
+
+
+/* INFORMATION - CPR  */
 
 #cpr {
     height: 100vh; /* full screen */
